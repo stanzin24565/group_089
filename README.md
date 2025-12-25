@@ -46,17 +46,17 @@ jal
 
 ----Key Features----
 
-🔢 Register name to register number mapping (x0–x31)
+ Register name to register number mapping (x0–x31)
 
-⚙️ Opcode, funct3, and funct7 encoding
+ Opcode, funct3, and funct7 encoding
 
-🏷️ Label resolution for branch instructions
+ Label resolution for branch instructions
 
-📐 Immediate value handling with proper bit masking
+ Immediate value handling with proper bit masking
 
-🧾 Outputs 32-bit binary instructions (one per line)
+ Outputs 32-bit binary instructions (one per line)
 
-📁 File Structure
+---- File Structure------
 .
 ├── assembler.py        # Main encoder logic
 ├── input.txt           # Input RISC-V assembly file
